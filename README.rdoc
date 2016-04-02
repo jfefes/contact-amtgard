@@ -1,28 +1,19 @@
-== README
+== Contact app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Written in Rails 4.2, utilizing React components and Bootstrap templating.
 
-Things you may want to cover:
+* Anonymous submission
 
-* Ruby version
+* Award/title recommendations
 
-* System dependencies
+* Player complaints
 
-* Configuration
+* Travel requests
 
-* Database creation
+* Player questions
 
-* Database initialization
+== Configurations needed
 
-* How to run the test suite
+* Set admin user in <tt>db/seeds.rb</tt>
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Configure sent-from email address in <tt>config/environments/production</tt>
